@@ -11,4 +11,22 @@ ssh-keygen
   
 press enter 4 times  
 
+go to powershell (run as admin)
+
+cd ~  
+
+cd .ssh  
+
+ Get-Service -Name ssh-agent | Set-Service -StartupType Automatic  
+ 
+ 
+
+
+
+
+
+
+
+
+
 
