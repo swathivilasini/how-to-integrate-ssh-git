@@ -18,6 +18,12 @@ cd ~
 cd .ssh  
 
  Get-Service -Name ssh-agent | Set-Service -StartupType Automatic  
+
+  Start-Service ssh-agent  
+
+  ssh-add id_rsa  
+
+  
  
  
 
